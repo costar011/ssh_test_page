@@ -16,7 +16,11 @@ const Content = () => {
 
       <div className="Member">
         <div className="member_mainbox">
-          <div className="member_box"></div>
+          <div className="member_box">box2</div>
+        </div>
+
+        <div className="member_mainbox2">
+          <div className="member_box1">box4</div>
         </div>
       </div>
     </div>
