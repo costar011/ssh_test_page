@@ -14,7 +14,8 @@
   margin: 20px 0 0 50px;
 
 
-  background-color: aqua;
+  background: url(../image/img.jpg);
+  background-size: cover;
 }
 
 .main_box {
@@ -49,7 +50,7 @@
     
   margin-top: 40px;
 
-  background-color: wheat;
+  
 }
 
 .member_mainbox {
@@ -58,7 +59,8 @@
 
   margin: 20px 10px 0 150px;
   
-  background-color: blueviolet;
+  background: url(../image/img.jpg);
+  background-size: cover;
 }
 
 .member_box {

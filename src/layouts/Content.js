@@ -1,5 +1,6 @@
 import react from "react";
 import "./Content.css";
+import "../image/img.jpg";
 
 const Content = () => {
   return (
