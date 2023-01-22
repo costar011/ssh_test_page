@@ -88,3 +88,21 @@
 
   background-color: blue;
 }
+
+.member_mainbox3 {
+  width: 100px;
+  height: 100px;
+
+  margin: 20px 0 0 380px;
+  
+  background-color: brown;
+}
+
+.member_box3 {
+  width: 100px;
+  height: 100px;
+
+  margin: 20px 0 0 80px;
+
+  background-color: springgreen;
+}
