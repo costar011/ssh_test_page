@@ -32,6 +32,10 @@ const Content = () => {
           <div className="member_box3"></div>
         </div>
       </div>
+
+      <div className="title">
+        <div className="title_3">sdada</div>
+      </div>
     </div>
   );
 };
