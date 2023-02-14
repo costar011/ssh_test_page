@@ -1,8 +1,53 @@
-import react from "react";
+import React from "react";
 import "./Content.css";
 import "../image/img.jpg";
 
 const Content = () => {
+  const sshDatum = [
+    {
+      id: 1,
+      job: "여왕개미",
+      name: "홍길동_1",
+      field: "선호분야_1",
+      language: "언어_1",
+    },
+    {
+      id: 2,
+      job: "여왕개미",
+      name: "홍길동_1",
+      field: "선호분야_1",
+      language: "언어_1",
+    },
+    {
+      id: 3,
+      job: "여왕개미",
+      name: "홍길동_1",
+      field: "선호분야_1",
+      language: "언어_1",
+    },
+    {
+      id: 4,
+      job: "여왕개미",
+      name: "홍길동_1",
+      field: "선호분야_1",
+      language: "언어_1",
+    },
+    {
+      id: 5,
+      job: "여왕개미",
+      name: "홍길동_1",
+      field: "선호분야_1",
+      language: "언어_1",
+    },
+    {
+      id: 6,
+      job: "여왕개미",
+      name: "홍길동_1",
+      field: "선호분야_1",
+      language: "언어_1",
+    },
+  ];
+
   return (
     <div>
       <div className="Content">
@@ -16,25 +61,33 @@ const Content = () => {
       </div>
 
       <div className="Member">
-        <div className="member_mainbox">
-          <div className="member_box"></div>
-        </div>
+        <div className="MemberBox">
+          {sshDatum.map((data) => {
+            return (
+              <div key={data.id} className="member_mainbox">
+                <div className="member_box"></div>
+                <div className="title">
+                  <div className="title_3">{data.job}</div>
+                  <div className="title_3">{data.name}</div>
+                  <div className="title_3">{data.field}</div>
+                  <div className="title_4">{data.language}</div>
+                </div>
+              </div>
+            );
+          })}
 
-        <div className="member_mainbox2">
+          {/* <div className="member_mainbox2">
           <div className="member_box1"></div>
-        </div>
-
-        <div className="member_mainbox3">
+          </div>
+          
+          <div className="member_mainbox3">
           <div className="member_box2"></div>
-        </div>
-
-        <div className="member_mainbox4">
+          </div>
+          
+          <div className="member_mainbox4">
           <div className="member_box3"></div>
+        </div> */}
         </div>
-      </div>
-
-      <div className="title">
-        <div className="title_3">sdada</div>
       </div>
     </div>
   );
